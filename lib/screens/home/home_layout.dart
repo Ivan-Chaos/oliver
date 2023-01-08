@@ -13,7 +13,9 @@ class HomeLayout extends StatelessWidget {
         extendBodyBehindAppBar: true,
         appBar: MyAppBar(),
         body: Container(
-          color: Color.fromARGB(206, 128, 58, 133),
-        ));
+            color: Colors.amber[400],
+            child: Stack(
+              children: [Container(color: Colors.indigo.shade500, height: 400,)],
+            )));
   }
 }

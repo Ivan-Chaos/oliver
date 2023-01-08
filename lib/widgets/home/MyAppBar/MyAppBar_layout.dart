@@ -14,7 +14,7 @@ class MyAppBar_layout extends StatelessWidget {
         leading: Padding(
           padding: const EdgeInsets.all(4),
           child: CircleAvatar(
-              backgroundColor: Colors.white,
+              backgroundColor: Color.fromARGB(201, 255, 255, 255),
               child: Container(
                 child: IconButton(
                   iconSize: 25,
